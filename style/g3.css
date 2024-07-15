@@ -27,7 +27,7 @@
     border: none;
 }
 .main section{
-    margin-top: 130px;
+    margin: 130px auto;
 }
 .feather-heading{
     font-size: 2.6rem;
@@ -101,6 +101,36 @@ font-weight: 700;
 
 
 /* class main area end */
+
+/* fact section */
+.fact{
+    border: 1px solid orange;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+.child{
+    width: 240px; 
+    height: 240px; 
+    
+    /* border: 1px solid black; */
+    text-align: center;
+   
+}
+
+.facts-containner{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ column-gap: 40px;
+
+
+
+
+}
+
 /* responsive with media query start  */
 @media screen and (max-width:576px){
     .navbar,
