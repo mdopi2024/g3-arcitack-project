@@ -1,0 +1,75 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.font-family {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* all webside flex */
+.display-flex{
+    display: flex;
+}
+.bg-header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.primary-btn{
+    background-color: rgb(255, 144, 14);
+    color: white;
+    padding:20px 25px ;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+/* all webside flex */
+/* header start */
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-item .nav-link{
+   text-decoration: none;
+   color: rgb(66, 66, 66);
+   font-size: 18px;
+   font-weight: 500;
+
+}
+.navbar{
+
+justify-content: space-between;
+}
+.banner{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.banner img{
+  width: 100%;
+}
+.navbar,.banner{
+    max-width:1440px ;
+    margin: 0 auto;
+}
+/* banner related style */
+.banner-contant{
+    max-width:850px ;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-contant .banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-title{
+    font-size: 4rem;
+font-weight: 700;
+}
+/* banner related style */
+
+/* header end */
+
