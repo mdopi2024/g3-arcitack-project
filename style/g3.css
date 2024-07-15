@@ -72,4 +72,11 @@ font-weight: 700;
 /* banner related style */
 
 /* header end */
+/* responsive with media query start  */
+@media screen and (max-width:576px){
+    .navbar,.nav-link{
+        flex-direction: column;
+    }
+}
+/* responsive with media query end*/
 
